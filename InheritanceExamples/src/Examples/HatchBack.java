@@ -1,6 +1,8 @@
 package Examples;
 
 public class HatchBack extends Car{
-	public HatchBack 
+	public HatchBack () {
+		super("Ford" , "Escape" , "blue");
+	}
 
 }
